@@ -30,7 +30,7 @@
                             <ClickTracking id="123">http://www.example.com/click</ClickTracking>
                         </VideoClicks>
                         <MediaFiles>
-                            <MediaFile id="video" delivery="progressive" type="video/mp4" bitrate="1215" width="1280" height="720">https://raw.githubusercontent.com/basil79/vast-sample-tags/master/rama/24.mp4</MediaFile>
+                            <MediaFile id="video" delivery="progressive" type="video/mp4" bitrate="1215" width="1280" height="720">https://raw.githubusercontent.com/basil79/vast-sample-tags/master/pg/24.mp4</MediaFile>
                         </MediaFiles>
                     </Linear>
                 </Creative>
