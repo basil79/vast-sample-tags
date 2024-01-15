@@ -240,7 +240,7 @@ LinearAd.prototype.initAd = function(width, height, viewMode, desiredBitrate, cr
         this._slot.appendChild(this._videoSlot);
     }
 
-    this._videoSlot.setAttribute('src', 'https://raw.githubusercontent.com/basil79/vast-sample-tags/master/rama/25.mp4');
+    this._videoSlot.setAttribute('src', 'https://basil79.github.io/vast-sample-tags/rama/25.mp4');
 
     this._videoSlot.addEventListener('timeupdate', this.timeUpdateHandler.bind(this), false);
     this._videoSlot.addEventListener('loadedmetadata', function(event) {

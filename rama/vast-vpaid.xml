@@ -33,7 +33,7 @@
                             <ClickTracking id="123">http://www.example.com/click</ClickTracking>
                         </VideoClicks>
                         <MediaFiles>
-                            <MediaFile delivery="progressive" type="application/javascript" apiFramework="VPAID" width="1280" height="720">https://raw.githubusercontent.com/basil79/vast-sample-tags/master/rama/vpaid.js</MediaFile>
+                            <MediaFile delivery="progressive" type="application/javascript" apiFramework="VPAID" width="1280" height="720">https://basil79.github.io/vast-sample-tags/rama/vpaid.js</MediaFile>
                         </MediaFiles>
                     </Linear>
                 </Creative>
