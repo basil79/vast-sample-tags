@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VAST version="4.0">
+    <Ad id="POD_AD-ID_001" sequence="1">
+        <InLine>
+            <Impression id="IMPRESSION-ID_001"><![CDATA[http://eyevinn.adtest.eyevinn.technology/api/v1/sessions/c766c508-dfb6-4e4a-a2ea-2f18e7da9c40/tracking?adId=kungsangen-10s_1&progress=vast]]></Impression>
+            <AdSystem><![CDATA[Test Adserver]]></AdSystem>
+            <AdTitle><![CDATA[Ad That Test-Adserver Wants Player To See #1]]></AdTitle>
+            <Creatives>
+                <Creative id="CRETIVE-ID_001" adId="kungsangen-10s_1" sequence="1">
+                    <UniversalAdId idRegistry="test-ad-id.eyevinn" idValue="EYEVINN0091"><![CDATA[EYEVINN0091]]></UniversalAdId>
+                    <UniversalAdId idRegistry="test-ad-id.eyevinn" idValue="EYEVINN0091"><![CDATA[EYEVINN0091]]></UniversalAdId>
+                    <Linear>
+                        <TrackingEvents>
+                            <Tracking event="start"><![CDATA[http://eyevinn.adtest.eyevinn.technology/api/v1/sessions/c766c508-dfb6-4e4a-a2ea-2f18e7da9c40/tracking?adId=kungsangen-10s_1&progress=0]]></Tracking>
+                            <Tracking event="firstQuartile"><![CDATA[http://eyevinn.adtest.eyevinn.technology/api/v1/sessions/c766c508-dfb6-4e4a-a2ea-2f18e7da9c40/tracking?adId=kungsangen-10s_1&progress=25]]></Tracking>
+                            <Tracking event="midpoint"><![CDATA[http://eyevinn.adtest.eyevinn.technology/api/v1/sessions/c766c508-dfb6-4e4a-a2ea-2f18e7da9c40/tracking?adId=kungsangen-10s_1&progress=50]]></Tracking>
+                            <Tracking event="thirdQuartile"><![CDATA[http://eyevinn.adtest.eyevinn.technology/api/v1/sessions/c766c508-dfb6-4e4a-a2ea-2f18e7da9c40/tracking?adId=kungsangen-10s_1&progress=75]]></Tracking>
+                            <Tracking event="complete"><![CDATA[http://eyevinn.adtest.eyevinn.technology/api/v1/sessions/c766c508-dfb6-4e4a-a2ea-2f18e7da9c40/tracking?adId=kungsangen-10s_1&progress=100]]></Tracking>
+                        </TrackingEvents>
+                        <VideoClicks>
+                            <ClickThrough id="Eyevinn Test AdServer"><![CDATA[https://github.com/Eyevinn/test-adserver]]></ClickThrough>
+                        </VideoClicks>
+                        <Duration><![CDATA[00:00:10]]></Duration>
+                        <MediaFiles>
+                            <MediaFile delivery="progressive" type="video/mp4" bitrate="17700" width="1920" height="1080" codec="H.264"><![CDATA[https://testcontent.eyevinn.technology/ads/kungsangen-10s.mp4]]></MediaFile>
+                        </MediaFiles>
+                    </Linear>
+                </Creative>
+            </Creatives>
+        </InLine>
+    </Ad>
+    <Ad id="POD_AD-ID_002" sequence="2">
+        <InLine>
+            <Impression id="IMPRESSION-ID_002"><![CDATA[http://eyevinn.adtest.eyevinn.technology/api/v1/sessions/c766c508-dfb6-4e4a-a2ea-2f18e7da9c40/tracking?adId=grannyra-10s_2&progress=vast]]></Impression>
+            <AdSystem><![CDATA[Test Adserver]]></AdSystem>
+            <AdTitle><![CDATA[Ad That Test-Adserver Wants Player To See #2]]></AdTitle>
+            <Creatives>
+                <Creative id="CRETIVE-ID_002" adId="grannyra-10s_2" sequence="2">
+                    <UniversalAdId idRegistry="test-ad-id.eyevinn" idValue="EYEVINN0082"><![CDATA[EYEVINN0082]]></UniversalAdId>
+                    <UniversalAdId idRegistry="test-ad-id.eyevinn" idValue="EYEVINN0082"><![CDATA[EYEVINN0082]]></UniversalAdId>
+                    <Linear>
+                        <TrackingEvents>
+                            <Tracking event="start"><![CDATA[http://eyevinn.adtest.eyevinn.technology/api/v1/sessions/c766c508-dfb6-4e4a-a2ea-2f18e7da9c40/tracking?adId=grannyra-10s_2&progress=0]]></Tracking>
+                            <Tracking event="firstQuartile"><![CDATA[http://eyevinn.adtest.eyevinn.technology/api/v1/sessions/c766c508-dfb6-4e4a-a2ea-2f18e7da9c40/tracking?adId=grannyra-10s_2&progress=25]]></Tracking>
+                            <Tracking event="midpoint"><![CDATA[http://eyevinn.adtest.eyevinn.technology/api/v1/sessions/c766c508-dfb6-4e4a-a2ea-2f18e7da9c40/tracking?adId=grannyra-10s_2&progress=50]]></Tracking>
+                            <Tracking event="thirdQuartile"><![CDATA[http://eyevinn.adtest.eyevinn.technology/api/v1/sessions/c766c508-dfb6-4e4a-a2ea-2f18e7da9c40/tracking?adId=grannyra-10s_2&progress=75]]></Tracking>
+                            <Tracking event="complete"><![CDATA[http://eyevinn.adtest.eyevinn.technology/api/v1/sessions/c766c508-dfb6-4e4a-a2ea-2f18e7da9c40/tracking?adId=grannyra-10s_2&progress=100]]></Tracking>
+                        </TrackingEvents>
+                        <VideoClicks>
+                            <ClickThrough id="Eyevinn Test AdServer"><![CDATA[https://github.com/Eyevinn/test-adserver]]></ClickThrough>
+                        </VideoClicks>
+                        <Duration><![CDATA[00:00:10]]></Duration>
+                        <MediaFiles>
+                            <MediaFile delivery="progressive" type="video/mp4" bitrate="17700" width="1920" height="1080" codec="H.264"><![CDATA[https://testcontent.eyevinn.technology/ads/grannyra-10s.mp4]]></MediaFile>
+                        </MediaFiles>
+                    </Linear>
+                </Creative>
+            </Creatives>
+        </InLine>
+    </Ad>
+    <Ad id="POD_AD-ID_003" sequence="3">
+        <InLine>
+            <Impression id="IMPRESSION-ID_003"><![CDATA[http://eyevinn.adtest.eyevinn.technology/api/v1/sessions/c766c508-dfb6-4e4a-a2ea-2f18e7da9c40/tracking?adId=coldzyme-10s_3&progress=vast]]></Impression>
+            <AdSystem><![CDATA[Test Adserver]]></AdSystem>
+            <AdTitle><![CDATA[Ad That Test-Adserver Wants Player To See #3]]></AdTitle>
+            <Creatives>
+                <Creative id="CRETIVE-ID_003" adId="coldzyme-10s_3" sequence="3">
+                    <UniversalAdId idRegistry="test-ad-id.eyevinn" idValue="EYEVINN0063"><![CDATA[EYEVINN0063]]></UniversalAdId>
+                    <UniversalAdId idRegistry="test-ad-id.eyevinn" idValue="EYEVINN0063"><![CDATA[EYEVINN0063]]></UniversalAdId>
+                    <Linear>
+                        <TrackingEvents>
+                            <Tracking event="start"><![CDATA[http://eyevinn.adtest.eyevinn.technology/api/v1/sessions/c766c508-dfb6-4e4a-a2ea-2f18e7da9c40/tracking?adId=coldzyme-10s_3&progress=0]]></Tracking>
+                            <Tracking event="firstQuartile"><![CDATA[http://eyevinn.adtest.eyevinn.technology/api/v1/sessions/c766c508-dfb6-4e4a-a2ea-2f18e7da9c40/tracking?adId=coldzyme-10s_3&progress=25]]></Tracking>
+                            <Tracking event="midpoint"><![CDATA[http://eyevinn.adtest.eyevinn.technology/api/v1/sessions/c766c508-dfb6-4e4a-a2ea-2f18e7da9c40/tracking?adId=coldzyme-10s_3&progress=50]]></Tracking>
+                            <Tracking event="thirdQuartile"><![CDATA[http://eyevinn.adtest.eyevinn.technology/api/v1/sessions/c766c508-dfb6-4e4a-a2ea-2f18e7da9c40/tracking?adId=coldzyme-10s_3&progress=75]]></Tracking>
+                            <Tracking event="complete"><![CDATA[http://eyevinn.adtest.eyevinn.technology/api/v1/sessions/c766c508-dfb6-4e4a-a2ea-2f18e7da9c40/tracking?adId=coldzyme-10s_3&progress=100]]></Tracking>
+                        </TrackingEvents>
+                        <VideoClicks>
+                            <ClickThrough id="Eyevinn Test AdServer"><![CDATA[https://github.com/Eyevinn/test-adserver]]></ClickThrough>
+                        </VideoClicks>
+                        <Duration><![CDATA[00:00:10]]></Duration>
+                        <MediaFiles>
+                            <MediaFile delivery="progressive" type="video/mp4" bitrate="17700" width="1920" height="1080" codec="H.264"><![CDATA[https://testcontent.eyevinn.technology/ads/coldzyme-10s.mp4]]></MediaFile>
+                        </MediaFiles>
+                    </Linear>
+                </Creative>
+            </Creatives>
+        </InLine>
+    </Ad>
+</VAST>
