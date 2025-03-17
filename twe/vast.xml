@@ -3,13 +3,13 @@
     <Ad id="Test">
         <InLine>
             <AdSystem version="2.0">Test</AdSystem>
-            <AdTitle>Blossom Hill</AdTitle>
+            <AdTitle>Blossom Hill Audio + Companion</AdTitle>
             <Error>http://www.example.com/error</Error>
             <Impression>http://www.example.com/impression</Impression>
             <Creatives>
                 <Creative sequence="1" AdID="7E7F3BE9-9717-4289-9094-B77EEDC4086A">
                     <Linear skipoffset="00:00:05">
-                        <Duration>00:00:15</Duration>
+                        <Duration>00:00:16</Duration>
                         <TrackingEvents>
                             <Tracking event="start">http://www.example.com/start</Tracking>
                             <Tracking event="firstQuartile">http://www.example.com/firstQuartile</Tracking>
