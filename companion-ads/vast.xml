@@ -75,6 +75,23 @@
                                 <![CDATA[ http://google.com ]]>
                             </CompanionClickThrough>
                         </Companion>
+                        <Companion id="234" width="320" height="180" pxratio="1400">
+                            <TrackingEvents>
+                                <Tracking event="clickthrough">https://www.nuevodevel.com/tracking/clickthroughCompanion</Tracking>
+                            </TrackingEvents>
+                            <CompanionClickTracking>
+                                <![CDATA[ https://www.nuevodevel.com/tracking/clickthroughCompanion ]]>
+                            </CompanionClickTracking>
+                            <StaticResource creativeType="image/png">
+                                <![CDATA[ https://opencdn.b-cdn.net/pub/5.0/media/iab_320.png ]]>
+                            </StaticResource>
+                            <CompanionClickThrough>
+                                <![CDATA[ https://nuevodevel.com/nuevo/showcase/vast-pro ]]>
+                            </CompanionClickThrough>
+                            <AltText>
+                                <![CDATA[ Example Companion Banner Image ]]>
+                            </AltText>
+                        </Companion>
                     </CompanionAds>
                 </Creative>
             </Creatives>
