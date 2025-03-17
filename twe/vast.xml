@@ -3,7 +3,7 @@
     <Ad id="Test">
         <InLine>
             <AdSystem version="2.0">Test</AdSystem>
-            <AdTitle>Test</AdTitle>
+            <AdTitle>Blossom Hill</AdTitle>
             <Error>http://www.example.com/error</Error>
             <Impression>http://www.example.com/impression</Impression>
             <Creatives>
@@ -26,7 +26,7 @@
                             <Tracking event="acceptInvitation">http://www.example.com/acceptInvitation</Tracking>
                         </TrackingEvents>
                         <VideoClicks>
-                            <ClickThrough id="123">http://google.com</ClickThrough>
+                            <ClickThrough id="123">https://www.blossomhill.com</ClickThrough>
                             <ClickTracking id="123">http://www.example.com/click</ClickTracking>
                         </VideoClicks>
                         <MediaFiles>
@@ -46,7 +46,7 @@
                                 </Tracking>
                             </TrackingEvents>
                             <CompanionClickThrough>
-                                <![CDATA[ https://www.blossomhill.com/ ]]>
+                                <![CDATA[ https://www.blossomhill.com ]]>
                             </CompanionClickThrough>
                         </Companion>
                     </CompanionAds>
