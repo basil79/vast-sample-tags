@@ -9,7 +9,7 @@
             <Creatives>
                 <Creative sequence="1" AdID="7E7F3BE9-9717-4289-9094-B77EEDC4086A">
                     <Linear skipoffset="00:00:05">
-                        <Duration>00:00:30</Duration>
+                        <Duration>00:00:15</Duration>
                         <TrackingEvents>
                             <Tracking event="start">http://www.example.com/start</Tracking>
                             <Tracking event="firstQuartile">http://www.example.com/firstQuartile</Tracking>
@@ -37,8 +37,8 @@
                 <Creative sequence="1">
                     <CompanionAds>
                         <Companion id="138381056765" width="300" height="250">
-                            <StaticResource creativeType="image/png">
-                                <![CDATA[ https://pagead2.googlesyndication.com/simgad/4446644594546952943 ]]>
+                            <StaticResource creativeType="image/jpeg">
+                                <![CDATA[ https://basil79.github.io/vast-sample-tags/twe/28.jpg ]]>
                             </StaticResource>
                             <TrackingEvents>
                                 <Tracking event="creativeView">
@@ -46,7 +46,7 @@
                                 </Tracking>
                             </TrackingEvents>
                             <CompanionClickThrough>
-                                <![CDATA[ http://google.com ]]>
+                                <![CDATA[ https://www.blossomhill.com/ ]]>
                             </CompanionClickThrough>
                         </Companion>
                     </CompanionAds>
