@@ -36,6 +36,19 @@
                 </Creative>
                 <Creative sequence="1">
                     <CompanionAds>
+                        <Companion id="203" width="300" height="600">
+                            <HTMLResource>
+                                <![CDATA[ <div style="background:#AB0000;text-align:center;color:#fff;padding:3px 0;">Thank you for your attention!</div><div style="width:100%; background:#000; text-align:right;padding-right:10px;font-size:12px; color:#999;">&copy Nuevodevel.com</div> ]]>
+                            </HTMLResource>
+                            <TrackingEvents>
+                                <Tracking event="creativeView">
+                                    <![CDATA[ http://www.example.com/creativeView ]]>
+                                </Tracking>
+                            </TrackingEvents>
+                            <CompanionClickThrough>
+                                <![CDATA[ http://google.com ]]>
+                            </CompanionClickThrough>
+                        </Companion>
                         <Companion id="138381056765" width="300" height="250">
                             <StaticResource creativeType="image/png">
                                 <![CDATA[ https://pagead2.googlesyndication.com/simgad/4446644594546952943 ]]>
