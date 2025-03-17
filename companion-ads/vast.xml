@@ -86,9 +86,9 @@
                                 <![CDATA[ Example Companion Banner Image ]]>
                             </AltText>
                         </Companion>
-                        <Companion id="235" width="100" height="100" pxratio="1400">
+                        <Companion id="233" width="540" height="82" adSlotId="3214" pxratio="1400">
                             <StaticResource creativeType="image/png">
-                                <![CDATA[ https://opencdn.b-cdn.net/pub/5.0/media/iab_100.png ]]>
+                                <![CDATA[ https://opencdn.b-cdn.net/pub/5.0/media/iab_540.png ]]>
                             </StaticResource>
                             <CompanionClickThrough>
                                 <![CDATA[ https://nuevodevel.com/nuevo/showcase/vast-pro ]]>
