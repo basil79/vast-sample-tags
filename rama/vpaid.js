@@ -261,10 +261,10 @@ LinearAd.prototype.initAd = function(width, height, viewMode, desiredBitrate, cr
         void 0 !== opener ? opener.focus() : window.location.href = targetUrl
         if(!that._isPaused) {
             that.pauseAd();
+            that.onAdClickThru(targetUrl, '0');
         } else {
             that.resumeAd();
         }
-        that.onAdClickThru(targetUrl, '0');
 
     }, false);
 
