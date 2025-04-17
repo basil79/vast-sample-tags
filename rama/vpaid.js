@@ -255,17 +255,16 @@ LinearAd.prototype.initAd = function(width, height, viewMode, desiredBitrate, cr
 
     // AdClickThru
     this._slot.addEventListener('click', function(event) {
-        /*
-        var targetUrl = 'http://192.168.1.111/';
+
+        var targetUrl = 'https://adserve.tv/vast-inspector/';
         var opener = window.open(targetUrl, "_blank");
         void 0 !== opener ? opener.focus() : window.location.href = targetUrl
-         */
         if(!that._isPaused) {
             that.pauseAd();
         } else {
             that.resumeAd();
         }
-        //that.onAdClickThru(targetUrl);
+        that.onAdClickThru(targetUrl, '0');
 
     }, false);
 
